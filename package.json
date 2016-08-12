@@ -1,0 +1,41 @@
+{
+  "name": "grammarkdown-server",
+  "version": "0.3.0",
+  "description": "Grammarkdown Language Server",
+  "license": "Apache-2.0",
+  "keywords": [
+      "grammar",
+      "language",
+      "syntax",
+      "dsl",
+      "javascript",
+      "typescript",
+      "ecmascript"
+  ],
+  "author": {
+    "name": "Ron Buckton",
+    "email": "rbuckton@chronicles.org",
+    "url": "http://github.com/rbuckton"
+  },
+  "private": true,
+  "main": "out/lib/server.js",
+  "scripts": {
+      "build": "gulp build"
+  },
+  "engines": {
+    "node": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^4.0.29",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-tsb": "git://github.com/rbuckton/gulp-tsb.git#srcDestMethods",
+    "merge2": "^0.3.6",
+    "typescript": "next"
+  },
+  "dependencies": {
+    "grammarkdown": "^1.0.0",
+    "vscode-languageserver": "^1.1.3"
+  }
+}

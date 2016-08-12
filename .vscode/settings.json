@@ -1,0 +1,15 @@
+{
+	"files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "lib": false,
+        "test": false
+	},
+	"search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "lib": true,
+        "test": true
+	},
+	"typescript.tsdk": "./node_modules/typescript/lib"
+}
